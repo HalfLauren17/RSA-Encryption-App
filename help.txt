@@ -1,0 +1,69 @@
+This application's objective is to use RSA cryptography for message encryption.
+
+HOW TO USE:
+
+- Encryption:
+In the Encrypt tab, enter the message you want to encrypt in the upper textbox.
+Then, press the Encrypt button, and the encrypted message will appear in the lower textbox.
+The encrypted text will vary depending on which encryption key you are using.
+
+- Decryption:
+Similarly, in the Decrypt tab, enter the message you want to decrypt in the upper textbox.
+Then, press the Decrypt button, and the decrypted message will appear in the lower textbox.
+The decrypted text will vary depending on which decryption key you are using.
+
+- Keys:
+Encryption keys are essentially random strings of characters used to encrypt and decrypt data, making it unreadable without the correct key.
+They come in pairs of encryption/decryption keys (also known as public/private keys).
+Each encryption key has a corresponding decryption key capable of decoding the message, and vice versa.
+While the encryption key can be made public, the decryption key must be kept secret to preserve message confidentiality.
+The default keys for the application are: 7990271,5 for encryption and 7990271,1596269 for decryption.
+
+- Key Generation:
+In the Key Generator tab, you can generate encryption and decryption keys.
+You have the option to enter two distinct prime numbers manually or choose them randomly by clicking the Choose Randomly button.
+The "Choose Randomly" button only selects primes with exactly five digits.
+The numbers must be prime and different from each other for the key generation to work.
+Due to how the algorithm works, the product of the selected primes should be greater than or equal to the selected alphabet size (the current alphabet size is 121 characters).
+In theory, larger prime numbers provide more secure encryption.
+
+- Settings:
+In the Settings tab, you can set the keys used for encryption and decryption.
+Each key consists of two numbers separated by a comma with no spaces (e.g., 123,321).
+Note that not every key will work. It is therefore recommended to use the key generator feature to set valid keys.
+Additionally you can also set the application's language.
+
+O objetivo desta aplicação é utilizar a criptografia RSA para a encriptação de mensagens.
+
+COMO USAR:
+
+- Encriptação:
+Na aba "Encriptar", digite a mensagem que deseja encriptar na caixa de texto superior.
+Em seguida, clique no botão "Encriptar", e a mensagem encriptada aparecerá na caixa de texto inferior.
+A mensagem encriptada varia de acordo com a chave de encriptação utilizada.
+
+- Decriptação:
+Da mesma forma, na aba "Decriptar", digite a mensagem que deseja decriptar na caixa de texto superior.
+Depois, clique no botão "Decriptar", e a mensagem decriptada aparecerá na caixa de texto inferior.
+A mensagem decriptada varia de acordo com a chave de decriptação utilizada.
+
+- Chaves:
+As chaves de encriptação são, essencialmente, sequências aleatórias de caracteres usadas para codificar e decodificar dados, tornando-os ilegíveis sem a chave correta.
+Essas chaves vêm em pares de encriptação/decriptação (também conhecidas como chaves pública/privada).
+Cada chave de encriptação possui uma chave de decriptação correspondente, capaz de decodificar a mensagem, e vice-versa.
+Enquanto a chave de encriptação pode ser pública, é importante manter a chave de decriptação em segredo, garantindo a confidencialidade da mensagem.
+As chaves padrão da aplicação são: 7990271,5 para encriptação e 7990271,1596269 para decriptação.
+
+- Geração de Chaves:
+Na aba "Gerar chaves", você pode gerar pares de chaves de encriptação e decriptação.
+Você tem a opção de inserir dois números primos distintos manualmente ou escolhê-los aleatoriamente por meio do botão "Escolher aleatoriamente".
+O botão "Escolher aleatório" seleciona apenas primos com exatamente cinco dígitos.
+Os números devem ser primos e diferentes entre si para que a geração funcione.
+Devido ao funcionamento do algoritmo, o produto entre os primos escolhidos deve ser maior ou igual ao tamanho do alfabeto selecionado (o tamanho atual do alfabeto é de 121 caracteres).
+Em teoria, quanto maiores os primos utilizados, mais segura será a encriptação.
+
+- Definições:
+Na aba "Definições", você pode definir as chaves utilizadas para encriptação e decriptação.
+Cada chave é composta por dois números separados por uma vírgula, sem espaços (exemplo: 123,321).
+Note que nem toda chave funcionará corretamente. Por isso, é recomendável utilizar o gerador de chaves da aplicação para garantir o uso de chaves válidas.
+Além disso, você também pode definir o idioma do aplicativo.

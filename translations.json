@@ -1,0 +1,108 @@
+{
+"en": {
+        "mainWindow":{
+            "title":"RSA Encryption App",
+            "mb1":"Encrypt",
+            "mb2":"Decrypt",
+            "mb3":"Generate keys",
+            "mb4":"Settings",
+            "mb5":"Help",
+            "mb6":"Exit"
+        },
+        "encryptionGUI":{
+            "label1":"Type in the text to be encrypted: ",
+            "label2":"Encrypted text:",
+            "button1":"Paste",
+            "button2":"Encrypt",
+            "button3":"Copy"
+        },
+        "decryptionGUI":{
+            "label1":"Type in the text to be decrypted: ",
+            "label2":"Decrypted text:",
+            "button1":"Paste",
+            "button2":"Decrypt",
+            "button3":"Copy"
+        },
+        "keyGenGUI":{
+            "label1":"Key generator",
+            "label2":"Type in two distinct prime numbers",
+            "label3":"OR",
+            "label4":"Choose randomly",
+            "label5":"Prime 1:",
+            "label6":"Prime 2:",
+            "label7":"Encryption key:",
+            "label8":"Decryption key:",
+            "button1":"Choose\nrandomly",
+            "button2":"Generate",
+            "button3":"Copy",
+            "button4":"Copy",
+            "warning1":"The product between the typed numbers should be equal or greater than the lenght of the alphabet: ",
+            "warning2":"One or more typed numbers aren't primes.",
+            "warning3":"The typed numbers should be different from each other!"
+        },
+        "settingsGUI":{
+            "label1":"Set encryption key: ",
+            "label2":"Set decryption key: ",
+            "button1":"Copy",
+            "button2":"Paste",
+            "button3":"Ok",
+            "button4":"Copy",
+            "button5":"Paste",
+            "button6":"Ok",
+            "warning1":"Invalid format."
+        }
+    },
+    "pt-br":{
+        "mainWindow":{
+            "title":"Aplicativo de Encriptação RSA",
+            "mb1":"Encriptar",
+            "mb2":"Decriptar",
+            "mb3":"Gerar chaves",
+            "mb4":"Definições",
+            "mb5":"Ajuda",
+            "mb6":"Sair"
+        },
+        "encryptionGUI":{
+            "label1":"Digite o texto a ser encriptado: ",
+            "label2":"Texto encriptado:",
+            "button1":"Colar",
+            "button2":"Encriptar",
+            "button3":"Copiar"
+        },
+        "decryptionGUI":{
+            "label1":"Digite o texto a ser decriptado: ",
+            "label2":"Texto decriptado:",
+            "button1":"Colar",
+            "button2":"Decriptar",
+            "button3":"Copiar"
+        },
+        "keyGenGUI":{
+            "label1":"Gerador de Chaves",
+            "label2":"Digite dois números primos distintos",
+            "label3":"OU",
+            "label4":"Escolha aleatóriamente",
+            "label5":"Primo 1:",
+            "label6":"Primo 2:",
+            "label7":"Chave de encriptação:",
+            "label8":"Chave de decriptação:",
+            "button1":"Escolher\naleatório",
+            "button2":"Gerar",
+            "button3":"Copiar",
+            "button4":"Copiar",
+            "warning1":"O produto entre os números inseridos deve ser igual ou maior que o tamanho do alfabeto: ",
+            "warning2":"Um ou mais números digitados não são primos.",
+            "warning3":"Os números inseridos devem ser diferentes um do outro!"
+        },
+        "settingsGUI":{
+            "label1":"Definir chave de encriptação: ",
+            "label2":"Definir chave de decriptação: ",
+            "button1":"Copiar",
+            "button2":"Colar",
+            "button3":"Ok",
+            "button4":"Copiar",
+            "button5":"Colar",
+            "button6":"Ok",
+            "warning1":"Formato inválido."
+        }
+    }
+}    
